@@ -11,7 +11,7 @@ package linkinwd.koulu1;
  */
 public class firstProject {
     public static void main(String[] args) {
-        
+        System.out.println("hello world");
     }
             
 }
