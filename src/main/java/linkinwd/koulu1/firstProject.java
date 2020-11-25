@@ -16,7 +16,7 @@ public class firstProject {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        
+        while(true){
         System.out.println("******************************************");
         System.out.println("Tervetuloa luomaan uutta tiliä pankillemme");
         System.out.println("******************************************");
@@ -29,7 +29,19 @@ public class firstProject {
         System.out.println("Saisinko sähköpostiosoitteesi?");
         String sahkoPosti= input.nextLine();
         
-        
+            System.out.println("Tietosi ovet siis?");
+            System.out.println("Nimesi on " + etuNimi + " " + sukuNimi);
+            System.out.println("Olet " + ika + " vuotta vanha");
+            System.out.println("sähköpostisi on " + sahkoPosti);
+            System.out.println("Ovetko nämä tiedot oikeat?(k/e) ");
+            String validointi = input.next();
+            if(validointi.equals("k")) {
+                System.out.println("onnistu");
+                break;
+            }
+            System.out.println("Tee sitten uudestaan!");
+            
+        }
     }
         
             
